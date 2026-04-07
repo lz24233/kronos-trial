@@ -1,0 +1,20 @@
+# BPQP A股量化实验依赖
+
+# 核心依赖（必须）
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# 可选：真实数据（Qlib）
+# Windows需先安装 Microsoft C++ Build Tools:
+# https://visualstudio.microsoft.com/visual-cpp-build-tools/
+# 然后: pip install git+https://github.com/microsoft/qlib.git
+# qlib>=0.9.0
+
+# 可选：GPU加速训练
+# torch>=2.0.0
+
+# 可选：可视化
+# matplotlib>=3.7.0
+# plotly>=5.0.0
